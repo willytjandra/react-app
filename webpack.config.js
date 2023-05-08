@@ -16,6 +16,18 @@ module.exports = {
     },
     open: true,
   },
+  module: {
+    rules: [
+      {
+        test: /.(js)x?$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+    ],
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'React App - Local',
