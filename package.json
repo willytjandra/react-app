@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "React Application with Webpack",
   "private": true,
+  "repository": "https://github.com/willytjandra/react-app.git",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -15,6 +16,7 @@
   ],
   "author": "Willy Tjandra <willy.tjandra@gmail.com",
   "license": "ISC",
+  "homepage": "https://github.com/willytjandra/react-app#readme",
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
