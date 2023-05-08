@@ -19,13 +19,21 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.(js|ts)x?$/,
+        test: /\.(js|ts)x?$/,
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif|svg)$/i,
+        exclude: /node_modules/,
+        type: 'asset',
+        generator: {
+          filename: 'static/images/[name].[contenthash:8][ext]',
+        },
       },
     ],
   },
