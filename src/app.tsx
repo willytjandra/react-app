@@ -1,4 +1,4 @@
-import styles from './App.module.css'
+import styles from './app.module.css'
 
 const App = () => <h1 className={styles.title}>Welcome to React Application!</h1>
 
