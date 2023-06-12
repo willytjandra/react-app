@@ -1,9 +1,9 @@
 {
   "name": "react-app",
   "version": "1.0.0",
-  "description": "React Application with Webpack",
+  "description": "Basic template for React Application with Webpack",
   "private": true,
-  "repository": "https://github.com/willytjandra/react-app.git",
+  "repository": "https://github.com/willytjandra/react-app-template.git",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -18,7 +18,7 @@
   ],
   "author": "Willy Tjandra <willy.tjandra@gmail.com",
   "license": "ISC",
-  "homepage": "https://github.com/willytjandra/react-app#readme",
+  "homepage": "https://github.com/willytjandra/react-app-template#readme",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
